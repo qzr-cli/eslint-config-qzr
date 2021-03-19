@@ -1,0 +1,9 @@
+{
+  "name": "@constq/eslint-config-qzr",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "author": "邱卓然 <z5021996@vip.qq.com>",
+  "repository": "git@github.com:qzr-cli/eslint-config-qzr.git"
+}
