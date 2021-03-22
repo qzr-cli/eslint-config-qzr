@@ -1,5 +1,7 @@
 # eslint-config-qzr
 
+test
+
 ## Installation
 
 ```bash
