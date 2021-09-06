@@ -3,7 +3,7 @@
  * @Description  : vue eslint基本配置
  * @Autor        : Qzr(z5021996@vip.qq.com)
  * @LastEditors  : Qzr(z5021996@vip.qq.com)
- * @LastEditTime : 2021-03-19 14:56:37
+ * @LastEditTime : 2021-09-06 10:03:05
  */
 
 module.exports = {
@@ -28,6 +28,7 @@ module.exports = {
         multiline: 'never', // 多行元素的配置。如果最后一个属性不在左括号的同一行，则为多行元素。
       },
     ],
+    'vue/comment-directive': 0,
     'vue/singleline-html-element-content-newline': [  // 在单行元素的内容之前和之后需要换行
       'off',
       {

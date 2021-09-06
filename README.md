@@ -1,11 +1,9 @@
-# eslint-config-qzr
-
-test
+# @constq/eslint-config-qzr
 
 ## Installation
 
 ```bash
-npm i -D eslint-config-qzr
+npm i -D @constq/eslint-config-qzr
 ```
 
 ## Usage
@@ -16,7 +14,7 @@ Add following snippets to your ESLint configuration files.
 
 ```json
 {
-  "extends": "qzr/vue"
+  "extends": "@constq/eslint-config-qzr/vue"
 }
 ```
 
@@ -24,7 +22,7 @@ Add following snippets to your ESLint configuration files.
 
 ```json
 {
-  "extends": "qzr/index"
+  "extends": "@constq/eslint-config-qzr/index"
 }
 ```
 
@@ -36,6 +34,6 @@ npm i -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
 
 ```json
 {
-  "extends": "qzr/typescript"
+  "extends": "@constq/eslint-config-qzr/typescript"
 }
 ```
