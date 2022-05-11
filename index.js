@@ -3,7 +3,7 @@
  * @Description  : eslint基础配置
  * @Autor        : Qzr(z5021996@vip.qq.com)
  * @LastEditors  : Qzr(z5021996@vip.qq.com)
- * @LastEditTime : 2021-03-19 14:56:07
+ * @LastEditTime : 2022-05-11 08:57:17
  */
 
 module.exports = {
@@ -384,7 +384,7 @@ module.exports = {
     // @fixable 禁止将 undefined 赋值给变量
     'no-undef-init': 'error',
     // 禁止对 undefined 重新赋值
-    'no-undefined': 'error',
+    'no-undefined': 'off',
     // 定义过的变量必须使用
     'no-unused-vars': [
       0,
