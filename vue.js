@@ -37,12 +37,12 @@ module.exports = {
       },
     ],
     'vue/max-attributes-per-line': ['error', {  // 强制每行的最大属性数
-      'singleline': {
-        'max': 1
-      },  // 当开始标记在一行中时，每行的最大属性数。默认值为1
-      'multiline': {
-        'max': 1, // 当开始标记位于多行中时，每行的最大属性数。默认值为1。如果您不配置属性{ multiline: 1 }，{ multiline: { max: 1 }}则可以代替allowFirstLine。
-        // 'allowFirstLine': true  // 如果为true，则允许属性与该标记名称位于同一行。默认值为false
+      // 强制每行的最大属性数
+      singleline: {
+        max: 1
+      }, // 当开始标记在一行中时，每行的最大属性数。默认值为1
+      multiline: {
+        max: 1, // 当开始标记位于多行中时，每行的最大属性数。默认值为1。如果您不配置属性{ multiline: 1 }，{ multiline: { max: 1 }}则可以代替allowFirstLine。
       }
     }],
     'vue/multiline-html-element-content-newline': ['off', {
@@ -87,5 +87,13 @@ module.exports = {
         'renderError'
       ]
     }],
+    'vue/multi-word-component-names': 'off',
+    'vue/first-attribute-linebreak': [
+      'error',
+      {
+        singleline: 'beside',
+        multiline: 'beside'
+      }
+    ],
   }
 }
